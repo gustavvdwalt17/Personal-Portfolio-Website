@@ -1,0 +1,23 @@
+.app__flex{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.app__flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    background-color:#fff;
+        padding: 5rem;
+}
+.white-footer {
+  background-color: #fff;
+  padding: 3rem;
+}
+.blue {
+  background-color: #f2f4f7;
+padding: 5rem;
+}

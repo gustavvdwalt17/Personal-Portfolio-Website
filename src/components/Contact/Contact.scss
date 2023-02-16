@@ -1,0 +1,51 @@
+.contact__text{
+    flex:0.3;
+}
+
+.contact__input{
+    flex:0.7;
+
+    input{
+        margin-top: 1rem;
+        margin-right:0.1rem ;
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(117, 117, 139);
+        color:black;
+    margin-bottom: 0.5rem;
+    }
+input::placeholder{
+    color:black;
+padding-left: 1rem;
+}
+textarea{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(117, 117, 139);
+}
+textarea::placeholder{
+    color: black;
+}
+
+
+}
+.contact__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+                cursor: pointer;
+                    margin-top: 1rem;
+                    font-size: 20px;
+                    transition: 0.5s;
+                    width: 150px;
+                    border: none;
+                    background-color: rgb(117, 117, 139);
+                    border-radius: 5px;
+                    padding: 0.2rem;
+                    color: white;
+                    margin-left: 0.5rem;
+    }
+}

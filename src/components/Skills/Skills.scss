@@ -1,0 +1,37 @@
+
+
+.skills__div-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+}
+
+.skills__div_ind{
+    margin-left: 1rem;
+        // background-color: #ffff;
+        //     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(#e66465, #9198e5);
+            padding: 1rem;
+            // background-color: linear-gradient(#e66465, #9198e5);
+// background-color: linear-gradient(#e66465, #9198e5) ;
+// background-color: linear-gradient(#e66465, #9198e5);
+            border-radius: 10px;
+            height: 300px;
+
+            h1{
+                text-align: center;
+                color: white;
+            }
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-top: 2rem;
+    color: white;
+    
+}
+        }

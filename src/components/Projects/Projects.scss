@@ -1,0 +1,98 @@
+.projects__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    
+&:hover {
+
+    }
+}
+.projects__wrapper_project{
+    margin-left: 2rem;
+    display: flex;
+        background-color: #ffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+            position: relative;
+       
+    img{
+        object-fit: cover;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+
+
+    }
+small{
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+ &:hover {
+    img{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    
+    }
+     box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+     /* offset-x | offset-y | color */
+ }
+
+ &:hover{
+.links {
+        position: absolute;
+    
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5rem;
+        border-radius: 10px;
+        top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+backdrop-filter: blur(4px);
+
+    }
+       small{
+        opacity: 0;
+       }
+ }
+}
+
+.links{
+    position: absolute;
+    opacity: 0;
+}
+
+// .eye-fill{
+// margin-top: 5rem;
+// margin-left: 2rem;
+// }
+
+.svg-div{
+position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+        background-color: rgba(41, 37, 37, 0.5);
+margin: 2rem 0 0 2.5rem;
+
+
+}     
+
+.eye-fill {
+    cursor: pointer;
+
+    position: absolute;
+      left:17px;
+      top:17px;
+      right:0;
+svg{
+        color: white;
+}
+       }
+
+       .image-div{
+        position: relative;
+       }
