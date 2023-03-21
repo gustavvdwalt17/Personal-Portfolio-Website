@@ -21,7 +21,7 @@ const Contact = () => {
   }
   return (
     <div>
-        <h1 className='app__flex'>Get in Touch</h1>
+        <h1 className='app__flex contact__header'>Get in Touch</h1>
 
         <div className='app__flex'> 
 
@@ -47,7 +47,7 @@ const Contact = () => {
    
            <div className='contact__btn'>
         <button>Submit</button>
-        <button>Clear</button>
+    
    </div> 
         </form>
         </div>

@@ -12,14 +12,17 @@ const Header = () => {
       transition={{duration: 0.5}}
     className='header__div'>
         <div className='text__div'>
-            <div className='text__div_1'>  <h1>Hi, I'm Gustav 👋</h1></div>
+            <div className='text__div_1'>  <h1 style={{color:'white'}} >Hi, I'm Gustav 👋</h1></div>
             <div className='text__div_1'>     <h2>Full Stack Developer</h2></div>
       
    
 
-        <button >
+        <motion.button
+        whileHover={{scale:1.1}}
+        whileTap={{scale:0.9}}
+        >
           
-          <a href='#contact'>Contact me</a></button>
+          <a className='contact__a' href='#contact'>Contact me</a></motion.button>
 
      
 </div>

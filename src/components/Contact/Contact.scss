@@ -1,35 +1,78 @@
 .contact__text{
     flex:0.3;
+    color: white;
+    margin-right: 1rem;
+    @media screen and (max-width: 768px) {
+           display: block;
+           font-size: 12px;
+           margin-right: 0.8rem;
+            // margin-left: 5rem;
+    }
 }
 
 .contact__input{
     flex:0.7;
-
+    text-align: center;
     input{
+        text-align: center;
+            color: white;
         margin-top: 1rem;
         margin-right:0.1rem ;
         width: 200px;
         height: 30px;
         border-radius: 10px;
         border: none;
-        background-color: rgb(117, 117, 139);
-        color:black;
+        cursor: pointer;
+        background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      
     margin-bottom: 0.5rem;
     }
 input::placeholder{
-    color:black;
+color: white !important;
 padding-left: 1rem;
 }
 textarea{
+    text-align: center;
     height: 100px;
     width: 500px;
-    background-color: rgb(117, 117, 139);
+    cursor: pointer;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    // background-color: #020B4A;
+   border: none;
 }
 textarea::placeholder{
-    color: black;
+    color: white;
+    
 }
+textarea{
+    color: white;
+}
+        @media screen and (max-width: 768px) {
+      input{
+        width: 150px;
+        margin-left: 0.2rem;
+      }
+      textarea{
+        width: 250px;
+       
+      }
+      button{
+        margin-right: 3rem;
+      }
+        }
+        @media screen and (min-width:1400px) {
 
-
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 0;
+textarea{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+        }
 }
 .contact__btn {
     display: flex;
@@ -42,10 +85,17 @@ textarea::placeholder{
                     transition: 0.5s;
                     width: 150px;
                     border: none;
-                    background-color: rgb(117, 117, 139);
+                    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
                     border-radius: 5px;
                     padding: 0.2rem;
                     color: white;
                     margin-left: 0.5rem;
     }
 }
+.contact__header{
+    color: white;
+        @media screen and (max-width: 768px) {
+           margin-left: 8rem;
+            }
+}
+

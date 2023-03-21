@@ -8,6 +8,7 @@ const Skills = () => {
     <motion.div
                   whileInView={{x:[100,0], opacity:[0,1]}}
       transition={{duration: 0.5}}
+
     >
         <h1 className='app__flex'>Skills</h1>
 
@@ -68,4 +69,4 @@ const Skills = () => {
   )
 }
 
-export default BackgroundWrap(Skills,'white','skills')
+export default BackgroundWrap(Skills,'darkblue','skills')

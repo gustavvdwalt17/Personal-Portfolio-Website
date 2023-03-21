@@ -4,13 +4,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 2rem;
+
+
+
+    @media screen and (max-width:768px) {
+        grid-template-columns: 1fr;
+    
+    }
 }
 
 .skills__div_ind{
     margin-left: 1rem;
         // background-color: #ffff;
         //     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        background: linear-gradient(#e66465, #9198e5);
+background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(110, 135, 193, 1) 0%, rgba(197, 245, 255, 1) 58%);
             padding: 1rem;
             // background-color: linear-gradient(#e66465, #9198e5);
 // background-color: linear-gradient(#e66465, #9198e5) ;
@@ -20,7 +28,7 @@
 
             h1{
                 text-align: center;
-                color: white;
+                color: black;
             }
 ul{
     list-style: none;
@@ -31,7 +39,11 @@ ul{
 }
 li{
     margin-top: 2rem;
-    color: white;
+    color: black;
     
 }
+  @media screen and (max-width:768px) {
+    margin-bottom: 1rem;
+
+  }
         }
