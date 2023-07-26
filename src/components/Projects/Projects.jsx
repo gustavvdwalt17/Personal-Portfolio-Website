@@ -3,10 +3,10 @@ import '../../App.scss'
 import './Projects.scss'
 import { motion } from 'framer-motion'
 import {AiFillEye,AiFillGithub} from 'react-icons/ai'
-import about from '../assets/about01.png'
-import wordle from '../assets/Capture.JPG'
+
+
 import eduvos from '../assets/Eduvos.JPG'
-import e_commerce from '../assets/e_commerce.jpg'
+
 import mobilehealth from '../assets/healthscreen.PNG'
 import { BackgroundWrap } from '../wrapper'
 const Projects = () => {

@@ -4,7 +4,7 @@ import { BackgroundWrap } from '../wrapper'
 import  {PDFDownloadLink, Page} from '@react-pdf/renderer'
 import './About.scss'
 import cv from './my_cv_copy.pdf'
-import Modal from './Modal'
+
 const cvfile = 'http://localhost:3000/'
 const About = () => {
   const [isOpen,setIsOpen] = useState(false)
