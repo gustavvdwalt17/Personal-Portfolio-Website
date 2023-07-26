@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
        
 }
 
@@ -21,8 +22,14 @@
     flex-direction: column;
     padding: 25px;
 
-}
 
+}
+.modal__background-container {
+@media screen and (max-width: 868px) {
+    width:400px;
+    height: 1000px;
+}
+}
 .modal__background-container .title {
     display: inline-block;
     text-align: center;

@@ -109,3 +109,10 @@ h1 {
 .contact__a{
     color: white !important;;
 }
+
+
+ @media screen and (max-width:500px) {
+.text__div_1{
+    width: 300px;
+}
+ }

@@ -1,7 +1,7 @@
 import React from 'react'
-import './Modal.css'
-import mycv from './deeds.pdf'
-import cv from '../assets/cv.JPG'
+import './Modal.scss'
+// import mycv from './deeds.pdf'
+// import cv from '../assets/cv.JPG'
 function Modal({closeModal}) {
     console.log(closeModal)
   return (
@@ -15,7 +15,7 @@ function Modal({closeModal}) {
     </div>
     <div className='body' >
 {/* <img src={cv} alt="" />///////////////////// */}
-<embed  src={mycv} width="800px" height="800px"/>
+{/* <embed   src={mycv} width="800px" height="800px"/> */}
     </div>
     <div className='footer' >
     {/* <button >Download</button> */}

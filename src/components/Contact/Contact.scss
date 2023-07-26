@@ -2,6 +2,9 @@
     flex:0.3;
     color: white;
     margin-right: 1rem;
+    position: absolute;
+    left: 10px;
+    margin-top: 5rem;
     @media screen and (max-width: 768px) {
            display: block;
            font-size: 12px;
@@ -73,6 +76,7 @@ display: flex;
     margin: 0;
 }
         }
+
 }
 .contact__btn {
     display: flex;
@@ -99,3 +103,28 @@ display: flex;
             }
 }
 
+                                 @media screen and (max-width:500px) {
+                                    .contact__input{
+                                        margin: 0;
+            .contact__text {
+                    margin-top: 25rem;
+                    font-size: 10px;
+                }
+            
+                input {
+                    margin: 0;
+                   
+                }
+                textarea{
+                    width: 200px;
+                    margin: 0.4rem;
+                }
+                input{
+                    margin: 0.5rem;
+                }
+                button{
+                    margin-left: 3.4rem;
+                }
+                                    }
+                       
+                                 }

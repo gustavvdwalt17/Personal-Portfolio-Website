@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { BackgroundWrap } from '../wrapper'
+import  {PDFDownloadLink, Page} from '@react-pdf/renderer'
 import './About.scss'
+import cv from './my_cv_copy.pdf'
 import Modal from './Modal'
+const cvfile = 'http://localhost:3000/'
 const About = () => {
   const [isOpen,setIsOpen] = useState(false)
   return (
@@ -17,21 +20,25 @@ transition={{ duration: .6 }}
       className='about__info' >
 
 
-    {isOpen && (
+    {/* {isOpen && (
       <Modal  closeModal={setIsOpen} />
-    )}
+    )} */}
+
       <h4>Born in South Africa, Pretoria I have always had a passion for computers and technology.</h4>
     <h4>I enjoy playing games in my free time and working out.</h4>
     <h4>I enjoy spending time with friends and family.</h4>
- 
 
-    <motion.button 
+
+    {/* <motion.button 
 onClick={()=>setIsOpen(true)}
          whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
-    className='btn'>Resume</motion.button>
-
+    className='btn'><a   href="./my_cv_copy.pdf" download="./my_cv_copy.pdf">Resume</a></motion.button> */}
+<button className='btn'>
+ <a href={cv} download="Resume">Cv</a>
+</button>
  
+
     <button className='btn'>
       
       <a className='a-tag' href='#contact'>Hire me</a></button>

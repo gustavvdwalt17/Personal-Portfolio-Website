@@ -45,6 +45,7 @@ const Skills = () => {
                 Nodejs
               </li>
               <li>Python</li>
+              <li>PHP</li>
               <li>MySQL</li>
               <li>MongoDB</li>
             </ul>
@@ -59,7 +60,7 @@ const Skills = () => {
           <ul>
      
             <li>Git</li>
-            <li>Sass</li>
+            <li>Docker</li>
             <li>Vs Code</li>
             <li>Bash Shell</li>
           </ul>

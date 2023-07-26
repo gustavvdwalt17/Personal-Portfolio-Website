@@ -7,6 +7,7 @@ import about from '../assets/about01.png'
 import wordle from '../assets/Capture.JPG'
 import eduvos from '../assets/Eduvos.JPG'
 import e_commerce from '../assets/e_commerce.jpg'
+import mobilehealth from '../assets/healthscreen.PNG'
 import { BackgroundWrap } from '../wrapper'
 const Projects = () => {
   return (
@@ -20,6 +21,29 @@ const Projects = () => {
    
    
    
+    <div className='projects__wrapper_project'>
+      
+
+        <img src={mobilehealth} alt="" />
+  
+      
+      
+      
+        <div className='links'>
+            <div className='svg-div'>
+         <div className='eye-fill' >
+            <a href='https://github.com/gustavvdwalt17/Mobile_Development_App' target='_blank'>
+<AiFillGithub  />
+</a>
+            </div>  
+
+            
+    
+    </div>
+</div>
+        <small>Health Practitioner Mobile Application build for a client using React Native for final year project.</small>
+      
+    </div>
     <div className='projects__wrapper_project'>
       
 
@@ -40,56 +64,11 @@ const Projects = () => {
     
     </div>
 </div>
-        <small>Full Stack Application using React and Nodejs among other technologies</small>
-      
-    </div>
-    <div className='projects__wrapper_project'>
-      
-
-        <img src={wordle} alt="" />
-  
-      
-      
-      
-        <div className='links'>
-            <div className='svg-div'>
-         <div className='eye-fill' >
-            <a href='https://github.com/gustavvdwalt17/Wordle_Clone' target='_blank'>
-<AiFillGithub  />
-</a>
-            </div>  
-
-            
-    
-    </div>
-</div>
-        <small>Built a Wordle Clone using React.</small>
+        <small>Full-Stack Application for students to sell 2nd-hand books using React and Nodejs.</small> 
       
     </div>
 
-    <div className='projects__wrapper_project projects__wrapper-margin'>
-      
 
-        <img src={e_commerce} alt="" />
-  
-      
-      
-      
-        <div className='links'>
-            <div className='svg-div'>
-         <div className='eye-fill' >
-            <a href='https://github.com/gustavvdwalt17/React_e-commerce' target='_blank'>
-<AiFillGithub  />
-</a>
-            </div>  
-
-            
-    
-    </div>
-</div>
-        <small>React Native E-Commerce Store with Nodejs.</small>
-      
-    </div>
             </div>
 
     </motion.div>
