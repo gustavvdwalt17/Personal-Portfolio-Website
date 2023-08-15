@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio-Website/static/css/main.99eebd6f.css",
+    "main.js": "/Personal-Portfolio-Website/static/js/main.24e22056.js",
+    "static/media/healthscreen.PNG": "/Personal-Portfolio-Website/static/media/healthscreen.b30033c30e6f1559a786.PNG",
+    "static/media/my_cv_copy.pdf": "/Personal-Portfolio-Website/static/media/my_cv_copy.02ad412c72c813ea0826.pdf",
+    "static/media/Eduvos.JPG": "/Personal-Portfolio-Website/static/media/Eduvos.2950bce0eafda09579e6.JPG",
+    "index.html": "/Personal-Portfolio-Website/index.html",
+    "main.99eebd6f.css.map": "/Personal-Portfolio-Website/static/css/main.99eebd6f.css.map",
+    "main.24e22056.js.map": "/Personal-Portfolio-Website/static/js/main.24e22056.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99eebd6f.css",
+    "static/js/main.24e22056.js"
+  ]
+}
