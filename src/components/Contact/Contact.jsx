@@ -20,8 +20,8 @@ const Contact = () => {
       });
   }
   return (
-    <div>
-        <h1 className='app__flex contact__header'>Get in Touch</h1>
+    <div className='app__flex' >
+        <h1 className='app__flex'>Get in Touch</h1>
 
         <div className='app__flex'> 
 

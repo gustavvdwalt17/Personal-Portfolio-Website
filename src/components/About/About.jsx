@@ -9,8 +9,12 @@ const cvfile = 'http://localhost:3000/'
 const About = () => {
   const [isOpen,setIsOpen] = useState(false)
   return (
-    <div>
-      <h1 className='app__flex'>About me</h1>
+
+
+<div className='app__flex-col'>
+      <h1 className='text__heading' >About me</h1>
+
+
       <motion.div
      animate={{ opacity: [0 ,1], y: [100, 0] }}
       exit={{opacity: [1,0]}}
@@ -23,10 +27,12 @@ transition={{ duration: .6 }}
     {/* {isOpen && (
       <Modal  closeModal={setIsOpen} />
     )} */}
+ 
+
 
       <h4>Born in South Africa, Pretoria I have always had a passion for computers and technology.</h4>
     <h4>I enjoy playing games in my free time and working out.</h4>
-    <h4>I enjoy spending time with friends and family.</h4>
+    <h4>I enjoy spending time with friends and family.</h4> 
 
 
     {/* <motion.button 
@@ -34,6 +40,9 @@ onClick={()=>setIsOpen(true)}
          whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
     className='btn'><a   href="./my_cv_copy.pdf" download="./my_cv_copy.pdf">Resume</a></motion.button> */}
+
+
+<div className='about__me-btn'>
 <button className='btn'>
  <a href={cv} download="Resume">Cv</a>
 </button>
@@ -42,8 +51,10 @@ onClick={()=>setIsOpen(true)}
     <button className='btn'>
       
       <a className='a-tag' href='#contact'>Hire me</a></button>
+      </div>
   </motion.div>
     </div>
+    
   )
 }
 

@@ -5,7 +5,7 @@
 border: none;
 width: 130px;
 border-radius: 8px;
-margin-left: 1rem;
+// margin-left: 1rem;
 color:white;
 cursor: pointer;
 padding: .5rem;
@@ -26,7 +26,6 @@ h1{
 }
 
 .about__info{
-    text-align: center;
 
 //    @media screen and () {
     
@@ -70,8 +69,8 @@ h4{
     width: 150px;
 }
 .btn{
-    margin-right: 5rem !important;
-    margin-left: 0rem;
+    // margin-right: 5rem !important;
+    // margin-left: 0rem;
 }
 
  }
@@ -79,4 +78,16 @@ h4{
   
                 color: white !important;
        
+ }
+
+ .text__center{
+align-items: center;
+ }
+
+ .about__me-btn{
+//    margin-left: 3rem;
+ }
+
+ .text__heading{
+    text-align: center;
  }
