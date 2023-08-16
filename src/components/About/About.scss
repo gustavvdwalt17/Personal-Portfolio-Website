@@ -84,10 +84,15 @@ h4{
 align-items: center;
  }
 
- .about__me-btn{
-//    margin-left: 3rem;
- }
+
 
  .text__heading{
     text-align: center;
+ }
+
+ @media screen and (min-width:1200px) {
+    .btn {
+         margin-left: 2rem;
+        }
+    
  }

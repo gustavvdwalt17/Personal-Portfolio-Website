@@ -72,6 +72,10 @@ backdrop-filter: blur(4px);
  }
   @media screen and (max-width:500px) {
 margin-right: 2rem;
+
+small{
+    font-size: 10px;
+}
   }
 }
 
