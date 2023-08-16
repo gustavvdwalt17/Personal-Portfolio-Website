@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { BackgroundWrap } from '../wrapper'
 import  {PDFDownloadLink, Page} from '@react-pdf/renderer'
 import './About.scss'
-import cv from './my_cv_copy.pdf'
+import cv from './my_cv.pdf'
 
 const cvfile = 'http://localhost:3000/'
 const About = () => {
